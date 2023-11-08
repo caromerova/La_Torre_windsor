@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    
+    opacity: 100%;
+    font-size:larger;
+
+}
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+#video{
+    display: flex;
+    justify-content: center;
+
+}
+footer{
+    background-color: rgb(71, 105, 133);
+    color: black;
+}
