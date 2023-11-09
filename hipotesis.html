@@ -19,12 +19,307 @@
 </nav>
 <hr>
 
+<body>
+  <!--agregaré 3 elementos modal donde agregaré el encabezado de las hipotesis de este acontecimiento + una imagen de la torre + 1 formulario para que el usuario pueda dejar sus datos y su opinion respecto a cada suposicion de las causas del incendio-->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter">
+  Primera Suposicion
+</button>
+
+<!-- Modal dentro del boton-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle"><mark>Accidente De Incendio</mark></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        El incendio en la Torre Windsor ocurrió el 20 de febrero de 2005. Este evento tuvo lugar en el rascacielos conocido como la Torre Windsor, ubicado en Madrid, España. El hecho conmosionó a los habitantes de dicha ciudad que observaban cómo uno de sus orgullos culturales se consumía en cuestion de un cerrar y abrir de ojos por asi decirlo. Asi que las <i>suposiciones</i> respecto a las causas de semejante ocurrencia no dieron espera. Lo primero que se plantearon muchos fue un cigarrillo mal apagado y tirado en una papelera en la platan 21 de la torre; uno de los celadores del edificio relató despues que vió al principio y  bajo una pequeña mesa un fuego pequeño en forma de cuadrado y que no representaba mayor amenaza, asi que reportó esta actividad por radio a su compañero indicando que bajaría por las llaves para volver a la planta 21 y asi terminar con este evento durante su turno, pero no alcanzó a lograr su cometido ya que las llamas despues consumirían en cuestion de minutos a la torre entera.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Leído</button>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!--imagen en la primer suposicion-->
+      </div>
+      <div class="col-sm">
+        <img src="/imagenes/suposicion1.jfif" alt="" srcset="">
+      </div>
+    </div>
+  </div>
+</div>
+      <br>
+      <br>
+
+      <!--formulario para recibir datos del usuario respecto a primer suposicion de los hechos-->
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip01">Tu Nombre</label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="nombre" value="nombre" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltip02">Tu Sobrenombre</label>
+              <input type="text" class="form-control" id="validationTooltip02" placeholder="apodo" value="apodo" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationTooltipUsername">Tu usuario de:(Git-hub,linkedin,facebook)<mark>cualquiera</mark></label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                  Please choose a unique and valid username.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip03">Ciudad</label>
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="ciudad" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip04">Opinion unicamente sobre esta primer suposicion</label>
+              <input type="text" class="form-control" id="validationTooltip04" placeholder="tu opinion" required>
+              <div class="invalid-tooltip">
+                Please provide a valid state.
+              </div>
+            </div>
+
+          </div>
+          <br>
+          <button class="btn btn-primary" type="submit">enviar </button>
+        </form>
+        <br>
+        <br>
+        <hr>
     
 
 
 
-    <!--footer general-->
-<footer>
+<!--segundo modal-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter">
+Primera Suposicion
+</button>
+
+<!-- Modal dentro del boton-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLongTitle"><mark>Accidente De Incendio</mark></h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      El incendio en la Torre Windsor ocurrió el 20 de febrero de 2005. Este evento tuvo lugar en el rascacielos conocido como la Torre Windsor, ubicado en Madrid, España. El hecho conmosionó a los habitantes de dicha ciudad que observaban cómo uno de sus orgullos culturales se consumía en cuestion de un cerrar y abrir de ojos por asi decirlo. Asi que las <i>suposiciones</i> respecto a las causas de semejante ocurrencia no dieron espera. Lo primero que se plantearon muchos fue un cigarrillo mal apagado y tirado en una papelera en la platan 21 de la torre; uno de los celadores del edificio relató despues que vió al principio y  bajo una pequeña mesa un fuego pequeño en forma de cuadrado y que no representaba mayor amenaza, asi que reportó esta actividad por radio a su compañero indicando que bajaría por las llaves para volver a la planta 21 y asi terminar con este evento durante su turno, pero no alcanzó a lograr su cometido ya que las llamas despues consumirían en cuestion de minutos a la torre entera.
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Leído</button>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+<!--imagen en la primer suposicion-->
+    </div>
+    <div class="col-sm">
+      <img src="/imagenes/suposicion1.jfif" alt="" srcset="">
+    </div>
+  </div>
+</div>
+</div>
+    <br>
+    <br>
+
+    <!--formulario para recibir datos del usuario respecto a primer suposicion de los hechos-->
+      <form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">Tu Nombre</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="nombre" value="nombre" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Tu Sobrenombre</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="apodo" value="apodo" required>
+            <div class="valid-tooltip">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltipUsername">Tu usuario de:(Git-hub,linkedin,facebook)<mark>cualquiera</mark></label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+              <div class="invalid-tooltip">
+                Please choose a unique and valid username.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">Ciudad</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="ciudad" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">Opinion unicamente sobre esta primer suposicion</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="tu opinion" required>
+            <div class="invalid-tooltip">
+              Please provide a valid state.
+            </div>
+          </div>
+
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit">enviar </button>
+      </form>
+      <br>
+      <br>
+      <hr>
+
+      <!--tercer modal-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+    
+            <!-- Button trigger modal -->
+    <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModalCenter">
+      Primera Suposicion
+    </button>
+    
+    <!-- Modal dentro del boton-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle"><mark>Accidente De Incendio</mark></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            El incendio en la Torre Windsor ocurrió el 20 de febrero de 2005. Este evento tuvo lugar en el rascacielos conocido como la Torre Windsor, ubicado en Madrid, España. El hecho conmosionó a los habitantes de dicha ciudad que observaban cómo uno de sus orgullos culturales se consumía en cuestion de un cerrar y abrir de ojos por asi decirlo. Asi que las <i>suposiciones</i> respecto a las causas de semejante ocurrencia no dieron espera. Lo primero que se plantearon muchos fue un cigarrillo mal apagado y tirado en una papelera en la platan 21 de la torre; uno de los celadores del edificio relató despues que vió al principio y  bajo una pequeña mesa un fuego pequeño en forma de cuadrado y que no representaba mayor amenaza, asi que reportó esta actividad por radio a su compañero indicando que bajaría por las llaves para volver a la planta 21 y asi terminar con este evento durante su turno, pero no alcanzó a lograr su cometido ya que las llamas despues consumirían en cuestion de minutos a la torre entera.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Leído</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!--imagen en la primer suposicion-->
+          </div>
+          <div class="col-sm">
+            <img src="/imagenes/suposicion1.jfif" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+          <br>
+          <br>
+    
+          <!--formulario para recibir datos del usuario respecto a primer suposicion de los hechos-->
+            <form class="needs-validation" novalidate>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip01">Tu Nombre</label>
+                  <input type="text" class="form-control" id="validationTooltip01" placeholder="nombre" value="nombre" required>
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltip02">Tu Sobrenombre</label>
+                  <input type="text" class="form-control" id="validationTooltip02" placeholder="apodo" value="apodo" required>
+                  <div class="valid-tooltip">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationTooltipUsername">Tu usuario de:(Git-hub,linkedin,facebook)<mark>cualquiera</mark></label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    </div>
+                    <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                      Please choose a unique and valid username.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationTooltip03">Ciudad</label>
+                  <input type="text" class="form-control" id="validationTooltip03" placeholder="ciudad" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationTooltip04">Opinion unicamente sobre esta primer suposicion</label>
+                  <input type="text" class="form-control" id="validationTooltip04" placeholder="tu opinion" required>
+                  <div class="invalid-tooltip">
+                    Please provide a valid state.
+                  </div>
+                </div>
+    
+              </div>
+              <br>
+              <button class="btn btn-primary" type="submit">enviar </button>
+            </form>
+            <br>
+            <br>
+            <hr>
+    
+
+
+
+   <!--footer general-->
+  
+<footer id="footer">
   <div class="container-fluid">
       <div class="container">
           <div class="row">
@@ -59,7 +354,9 @@
     </div>
 </footer>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
