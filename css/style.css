@@ -16,7 +16,16 @@ body{
     justify-content: center;
 
 }
+/*hipotesis*/
+.needs-validation{
+    padding-left: 90px;
+}
+
+
+
 footer{
     background-color: rgb(71, 105, 133);
     color: black;
+    
 }
+
