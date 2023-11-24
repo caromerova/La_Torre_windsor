@@ -16,7 +16,12 @@ body{
     justify-content: center;
 
 }
+#grupo
+{
+    padding-left: 2%;
+}
+
 footer{
-    background-color: rgb(71, 105, 133);
+    background-color: rgb(31, 46, 58);
     color: black;
 }
